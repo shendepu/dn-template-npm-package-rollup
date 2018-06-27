@@ -7,11 +7,6 @@
   "directories": {
     "modules": "modules"
   },
-  "files": [
-    "es",
-    "index.js",
-    "umd"
-  ],
   "scripts": {
     "clean": "git clean -fdX .",
     "lint": "dn lint",
