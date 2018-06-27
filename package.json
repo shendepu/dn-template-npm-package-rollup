@@ -11,7 +11,6 @@
     "clean": "git clean -fdX .",
     "lint": "dn lint",
     "build": "dn build",
-    "publish": "dn publish",
     "precommit": "lint-staged",
     "format": "prettier-eslint --write \"modules/**/*.js\" \"test/**/*.js\""
   },
