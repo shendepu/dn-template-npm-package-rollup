@@ -9,7 +9,7 @@ import pkg from "./package.json";
 const config = {
   input: "modules/index.js",
   output: {
-    name: "create-redux-store"
+    name: pkg.name
   },
   external: Object.keys(pkg.peerDependencies),
   plugins: [
