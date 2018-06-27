@@ -1,0 +1,22 @@
+init:
+  - name: pkginfo
+
+build:
+  - name: clean
+  - name: shell
+    script:
+      - node ./tools/build.js
+
+lint:
+  - name: lint
+
+test:
+  - name: lint
+  - name: unit
+
+publish:
+  - name: shell
+    script:
+      - dn test
+      - dn build
+      - npm pu

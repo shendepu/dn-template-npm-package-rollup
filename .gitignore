@@ -1,0 +1,16 @@
+/**
+!/.gitignore
+!/.eslintrc.json
+!/.eslintrc.yml
+!/package.json
+!/README.md
+!rollup.config.js
+
+!/.dawn/**
+!/.dawn/
+!/modules/**
+!/modules/
+!/tools/**
+!/tools/
+!/test/**
+!/test/
